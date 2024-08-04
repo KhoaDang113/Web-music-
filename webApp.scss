@@ -1,0 +1,43 @@
+@forward "./sass/home/_sidebar.scss";
+@forward "./sass/home/topbar-main";
+@forward "./sass/home/section-rigth";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 700;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: #18181d;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+input {
+  background: none;
+  border: none;
+  outline: none;
+}
+img {
+  object-fit: cover;
+}
+//css side bar
+.wrapper {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 4fr 2fr;
+  min-height: 100vh;
+}

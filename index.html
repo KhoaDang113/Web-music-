@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="webApp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Web Music</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- side bar code -->
+      <aside class="side-bar">
+        <!-- header -->
+        <div class="header-sidebar">
+          <img src="icon/icon-logo.svg" alt="logo icon" />
+          <span>Khoa</span>
+        </div>
+
+        <!-- main -->
+        <div class="main-sidebar">
+          <!-- menu -->
+          <ul class="menu listul">
+            <span>MENU</span>
+            <li>
+              <i class="fa-solid fa-circle-plus"></i>
+              <span>Explore</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-volume-high"></i>
+              <span>Genres</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <span>Albums</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-microphone"></i>
+              <span>Artists</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-podcast"></i>
+              <span>Poddcasts</span>
+            </li>
+          </ul>
+
+          <!-- library -->
+          <ul class="library listul">
+            <span>LIBRARY</span>
+            <li>
+              <i class="fa-solid fa-reply"></i>
+              <span>Recent</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <span>Albums</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-heart"></i>
+              <span>Favourites</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-folder-open"></i>
+              <span>Local</span>
+            </li>
+          </ul>
+
+          <!-- play list -->
+          <ul class="play-list listul">
+            <span>PLAY LIST</span>
+            <li>
+              <i class="fa-solid fa-square-plus"></i>
+              <span>Create New</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-plus"></i>
+              <span>Best of 2024</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-plus"></i>
+              <span>Best of 2022</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-plus"></i>
+              <span>Kael Fischer</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+          <div class="top-footer">
+            <img src="image/SonTung.jpg" alt="son tung" />
+            <div class="info-footer">
+              <span>Apple</span>
+              <span>Homepod</span>
+            </div>
+          </div>
+          <div class="bottom-footer">
+            <i class="fa-solid fa-podcast"></i>
+            <span>Playing On Device</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- main code -->
+      <section class="container">
+        <!-- top bar -->
+        <div class="topbar">
+          <div class="topbar-left">
+            <a>Music</a>
+            <a>Live</a>
+            <a>Podcast</a>
+          </div>
+          <div class="topbar-right">
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <input name="text" type="text" placeholder="type here to search" />
+          </div>
+        </div>
+
+        <!-- body -->
+        <article>
+          <!-- trending -->
+          <div class="trending">
+            <div class="trending-left">
+              <span>Trending New Song</span>
+              <div class="trending-left-content">
+                <h2>Lost Emotions</h2>
+                <h5>100 Years Love</h5>
+                <h6>63 Million Plays</h6>
+                <div class="btn-icon">
+                  <button class="btn-text">Listen Now</button>
+                  <i class="fa-solid fa-heart icon-heart"></i>
+                </div>
+              </div>
+            </div>
+            <img src="image/MusicCool.jpg" class="Best-Art" alt="best art" />
+          </div>
+
+          <!-- play list -->
+          <div class="playList">
+            <div class="Genres">
+              <div class="Genres-header">
+                <p>Genres</p>
+                <a>see all</a>
+              </div>
+              <div class="Genres-items">
+                <span class="item-1">Electro Pop</span>
+                <span class="item-2">Dance Beat</span>
+                <span class="item-3">Clubhouse Remix</span>
+                <span class="item-4">Hip Hop Rap</span>
+                <span class="item-5">Alternative Indie</span>
+              </div>
+            </div>
+            <!-- song -->
+            <div class="songs">
+              <div class="songs-header">
+                <p>Top Songs</p>
+                <a>see all</a>
+              </div>
+              <ul class="songs-body"></ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- right section -->
+      <div class="right-section">
+        <!-- header right section -->
+        <div class="right-section-header">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-gear"></i>
+          <div class="info">
+            <img src="image/SonTung.jpg" alt="Son Tung" />
+            <span>Sơn Tùng MTP</span>
+          </div>
+        </div>
+        <!-- body right section -->
+        <div class="right-section-body">
+          <div class="top-section">
+            <div class="top-section-header">
+              <p>Player</p>
+              <a>
+                <i class="fa-solid fa-list"></i>
+              </a>
+            </div>
+            <div class="screen-song"></div>
+          </div>
+          <audio id="audio"></audio>
+          <div class="time-and-process">
+            <span class="time-start"></span>
+            <input
+              type="range"
+              id="process"
+              step="1"
+              min="0"
+              max="100"
+              value="0"
+            />
+            <span class="time-end"></span>
+          </div>
+        </div>
+        <div class="player-action">
+          <div class="buttons">
+            <i class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-backward-step fa-prev"></i>
+            <i
+              class="fa-solid fa-play btn-play-pause"
+              style="color: #0c7bcf"
+            ></i>
+            <i class="fa-solid fa-backward-step fa-rotate-180 fa-next"></i>
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+          <div class="lyrics">
+            <i class="fa-solid fa-angle-up"></i>
+            <span>lyrics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="webApp.js"></script>
+  </body>
+</html>

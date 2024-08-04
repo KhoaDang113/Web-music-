@@ -1,0 +1,9 @@
+--backEnd:
+    +english
+    +php: laravel;
+    +js: nodejs;
+    +golang : Beego
+    + cacs quy uoc trong code (code convention)
+    +cs6 cs7
+    
+--frontEnd: js :vuejs

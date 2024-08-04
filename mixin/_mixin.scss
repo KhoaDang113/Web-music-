@@ -1,0 +1,13 @@
+@mixin header-seeAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    font-size: 13.3px;
+  }
+  a {
+    color: #919191;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
